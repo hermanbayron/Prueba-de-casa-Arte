@@ -20,9 +20,9 @@ import {
   BsFillHeartFill,
   BsHeart,
   BsFillBrushFill,
-  BsFillShareFill
+  BsFillShareFill,
 } from "react-icons/bs";
-// import { AiFillEdit } from "react-icons/ai";
+// import { AiFillEdit } from "react-icons/ai"; 33333333
 import { ImgCarousel } from "../component/imgCarousel.jsx";
 
 export const LandingPage = () => {
@@ -235,7 +235,7 @@ export const LandingPage = () => {
                     }}
                   >
                     {store.favoriteItem?.includes(item.id) ? (
-                    <BsFillHeartFill />
+                      <BsFillHeartFill />
                     ) : (
                       <BsHeart />
                     )}

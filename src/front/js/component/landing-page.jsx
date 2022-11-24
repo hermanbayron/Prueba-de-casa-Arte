@@ -22,7 +22,7 @@ import {
   BsFillBrushFill,
   BsFillShareFill,
 } from "react-icons/bs";
-// import { AiFillEdit } from "react-icons/ai"; 33333333
+// import { AiFillEdit } from "react-icons/ai"; 3
 import { ImgCarousel } from "../component/imgCarousel.jsx";
 
 export const LandingPage = () => {

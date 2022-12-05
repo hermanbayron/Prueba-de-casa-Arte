@@ -18,7 +18,8 @@ export const Scoring = (props) => {
     let onScored = await actions.createScore(comment, score, params.id);
     Swal.fire(onScored.data.msg);
     setComment("");
-    navigate("/product-detail/" + params.id);
+    actions.getProductRatings(params.id)
+    actions.getProductDetail(params.id)
   };
 
   // const handleScore = () => {

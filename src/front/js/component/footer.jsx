@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/footer.css";
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -11,6 +12,8 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
+
+
 
 export const Footer = () => {
   return (
@@ -37,6 +40,7 @@ export const Footer = () => {
           </EmailShareButton>
         </section>
       </div>
+
       <div>
         <h6 className="text-uppercase fw-bold mb-4">Contact:</h6>
       </div>

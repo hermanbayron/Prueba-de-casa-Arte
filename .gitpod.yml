@@ -5,6 +5,7 @@ ports:
     onOpen: open-browser
     visibility: public
   - port: 3001
+    # onOpen: ignores
     onOpen: open-preview
     visibility: public
   - port: 5432
